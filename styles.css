@@ -8,8 +8,8 @@ body {
 .hero {
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 200px;
     padding-top: 16px;
     background-color: #1f2937;
@@ -24,7 +24,7 @@ body {
 .header-text {
     font-weight: bold;
     font-size: 24px;
-    color:#f9faf8
+    color:#f9faf8;
 
 }
 
@@ -35,14 +35,16 @@ a {
 
 .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 100px;
-    gap: 16px;
+    gap: 20px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
 }
 
 .main-text {
@@ -58,5 +60,19 @@ a {
 
 .links {
     display: flex;
+    justify-content: space-between;
     gap: 16px;
+}
+
+button {
+    padding: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #3882f6;
+    font-size: 14px;
+    color: #f9faf8;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 0;
 }
