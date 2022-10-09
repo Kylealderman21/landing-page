@@ -157,4 +157,39 @@ button {
     font-weight: bold;
 }
 
+.hero-four  {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-box  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 900px;
+    min-height: 150px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    justify-content: space-evenly;
+}
+
+.action-text  {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-text-two  {
+    color: #E5E7EB;
+}
+
+.sign-up-button  {
+    padding: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: 2px solid #f9faf8;
+}
 
